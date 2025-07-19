@@ -105,3 +105,14 @@
 .marketplace img:hover{
     transform: scale(1.05);
 }
+
+/* Responsive for smaller devices */
+
+@media screen and (max-width:576px) {
+    .navbar,
+    .influencer,
+    .marketplace{
+        flex-direction:column;
+        grid-template-columns:1fr;
+    }
+}
